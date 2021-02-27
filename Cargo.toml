@@ -1,9 +1,9 @@
 [package]
-name = "string-explode"
+name = "str-to-array"
 version = "0.1.0"
 authors = ["Keating Reid <keating.reid@protonmail.com>"]
 description = "A procedural macro that expands a string literal to an array of its characters."
-repository = "https://github.com/Keating950/string-explode"
+repository = "https://github.com/Keating950/str-to-array"
 license = "MIT"
 keywords = ["proc-macro", "const", "str", "array"]
 categories = ["text-processing", "encoding", "data-structures"]

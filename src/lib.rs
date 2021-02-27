@@ -15,7 +15,7 @@ impl Parse for ParseTarget {
 }
 
 #[proc_macro]
-pub fn explode(input: TokenStream) -> TokenStream {
+pub fn expand(input: TokenStream) -> TokenStream {
     let input_str = parse_macro_input!(input as ParseTarget).0.value();
     let iter = input_str.chars();
     (quote! { [#(#iter),*] }).into()
