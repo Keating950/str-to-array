@@ -1,3 +1,6 @@
+## Deprecated
+Code has since been merged into the [const-str](https://github.com/Nugine/const-str) crate.
+
 # str-to-array
 
 This crate provides a procedural macro, `expand`, that expands a string literal to an array of its characters.
